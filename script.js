@@ -31,6 +31,9 @@ document.getElementById("buscar").addEventListener("click",()=>{
         console.log(datos);
         displayC = true;
         display(datos,"C");
+        document.getElementById("contenedor").scrollIntoView({ 
+            behavior: 'smooth' 
+          });
     })
     .catch(err =>{
         alert("No se encontro resultado, ingrese una ciudad valida");

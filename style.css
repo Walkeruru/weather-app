@@ -10,10 +10,3 @@ body{
     background-position: center;
     height: 100vh;
 }
-button>a{
-    text-decoration: none;
-    color: white;
-}
-button>a:hover{
-    color: white;
-}
