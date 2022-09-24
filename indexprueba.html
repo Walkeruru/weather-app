@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/bootstrap.min.js" defer></script>
+  </head>
+  <body>
+    <div class="container vh-100">
+      <div class="d-flex mb-2 mt-5">
+        <div class="me-auto p-2 fs-1"> <span class="text-muted">Ciudad:</span> ${datos.city}</div>
+        <div  class="p-2 fs-1"><span class="text-muted">Pais:</span> ${datos.country}</div>
+    </div>
+    <div class="d-flex mb-2 justify-content-center h-50 fs-1">
+        <div class="align-self-center"><p class="text-center text-muted">Temperatura:</p> <p class="text-center">${datos.main.temp} °C</p></div>
+    </div>
+    <div class="d-flex mb-2 justify-content-between h-25 fs-1">
+        <div class="align-self-center"><span class="text-muted">Condición:</span> ${datos.weather.description}
+        <img src="http://openweathermap.org/img/wn/${datos.weather.icon}@2x.png" alt="weather condition icon"></div>
+        <div class="align-self-center"> <p><span class="text-muted">Temperatura Maxima:</span> ${datos.main.temp_max} °C</p>
+          <p><span class="text-muted">Temperatura Minima:</span> ${datos.main.temp_min} °C</p></div>
+    </div>
+    </div>
+  </body>
+</html>

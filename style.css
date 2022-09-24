@@ -1,0 +1,19 @@
+*{
+    overflow-x: hidden;
+    color: white;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("img/night.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+button>a{
+    text-decoration: none;
+    color: white;
+}
+button>a:hover{
+    color: white;
+}
