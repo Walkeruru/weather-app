@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 *{
     overflow-x: hidden;
-    color: white;
     scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 body{
-    background-image: url("img/night.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-image: url(img/night-road-blue-weather-forest-stars-4k-54-1366x768.jpg);
     height: 100vh;
+};
+a{
+    font-weight: 200;
 }
+svg{
+    width: 2em;
+};
